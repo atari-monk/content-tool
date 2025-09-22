@@ -1,0 +1,27 @@
+# config/default.yaml
+defaults:
+    ignore_dirs:
+        - ".git"
+        - "__pycache__"
+        - "node_modules"
+        - "venv"
+    ignore_files:
+        - ".DS_Store"
+        - "Thumbs.db"
+        - "*.pyc"
+    output_format: "markdown"
+
+index:
+    output_name: "index.md"
+    ignore_dirs:
+        - "_layouts"
+        - "assets"
+    max_depth: 10
+
+clipboard:
+    storage_file: "~/.content-tool/clipboard.md"
+    max_history: 100
+
+scan:
+    include_hidden: false
+    follow_symlinks: false

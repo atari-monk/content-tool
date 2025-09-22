@@ -1,0 +1,18 @@
+# Core Dependencies
+click>=8.0.0
+pyperclip>=1.8.0
+pyyaml>=5.4.0
+pathlib2>=2.3.0; python_version < '3.4'
+
+# Development Dependencies
+setuptools
+pytest>=6.0.0
+pytest-cov>=2.0.0
+black>=21.0.0
+flake8>=3.9.0
+mypy>=0.900.0
+isort>=5.9.0
+
+# Documentation
+mkdocs>=1.1.0
+mkdocs-material>=7.0.0
